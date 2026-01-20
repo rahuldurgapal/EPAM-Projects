@@ -22,12 +22,14 @@ public class Main {
                          System.out.println("Enter ID: ");
                          System.out.println("Enter Student uid: ");
                          int uid = sc.nextInt();
+                         sc.nextLine();
                          s.setUid(uid);
                          System.out.println("Enter Student name: ");
                          String name = sc.nextLine();
                          s.setName(name);
                          System.out.println("Enter Student age: ");
                          int age = sc.nextInt();
+                         sc.nextLine();
                          s.setAge(age);
                          System.out.println("Enter Student address: ");
                          String address = sc.nextLine();
