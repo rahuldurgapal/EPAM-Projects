@@ -19,7 +19,6 @@ public class Main {
                  switch(choice) {
                      case 1:
                          Student s = new Student();
-                         System.out.println("Enter ID: ");
                          System.out.println("Enter Student uid: ");
                          int uid = sc.nextInt();
                          sc.nextLine();
